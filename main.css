@@ -1,6 +1,6 @@
 body {
     background-color: #383346;
-    font-family: 'Pattaya', sans-serif;
+    font-family: 'Inter', sans-serif;
 }
 
 .navbar {
@@ -25,19 +25,49 @@ body {
     justify-content: flex-end; /*Aligns horizontally center */
 }
 
+.row > * {
+    padding: 8px 8px;
+}
+
 .card {
     font-size: 36px;
     color: white;
     background-color: #e76f51; /*Vermelha*/
-    height: 150px;
-    margin: 10px;
+    height: 200px;
     border-radius: 5px;
     display: flex; 
     align-items: center;  /*Aligns vertically center */
     justify-content: center; /*Aligns horizontally center */
+    width: 100%;
 }
 
 .card-sec {
     background-color: #f4a261; /*Laranja*/
 }
 
+.fheader {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding: 5px 15px;
+    justify-content: space-between;
+    margin-bottom: auto;
+}
+
+.fheader {
+    padding: 15px 20px;
+    font-size: 24px;
+}
+
+.fheader .title {
+    font-size: 28px;
+}
+
+.fbottom {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding: 10px 15px;
+    justify-content: space-between;
+    font-size: 18px;
+}
