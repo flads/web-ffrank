@@ -33,7 +33,7 @@ body {
     font-size: 36px;
     color: white;
     background-color: #e76f51; /*Vermelha*/
-    height: 200px;
+    height: 250px;
     border-radius: 5px;
     display: flex; 
     align-items: center;  /*Aligns vertically center */
