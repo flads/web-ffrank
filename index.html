@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>GRID - BOOTSTRAP</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Pattaya&display=swap" rel="stylesheet">
+
+    <style>
+        body {
+            background-color: #383346;
+            font-family: 'Pattaya', sans-serif;
+        }
+
+        .navbar {
+            font-size: 36px;
+            color: white;
+            height: 75px;
+            display: flex; 
+            align-items: center;  /*Aligns vertically center */
+            background-color: #f4a261; /*Laranja*/
+            margin-bottom: 50px;
+        }
+
+        .navbar .logo {
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-start; /*Aligns horizontally center */
+        }
+
+        .navbar .menu {
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-end; /*Aligns horizontally center */
+        }
+
+        .card {
+            font-size: 36px;
+            color: white;
+            background-color: #e76f51; /*Vermelha*/
+            height: 150px;
+            margin: 10px;
+            border-radius: 5px;
+            display: flex; 
+            align-items: center;  /*Aligns vertically center */
+            justify-content: center; /*Aligns horizontally center */
+        }
+
+        .card-sec {
+            background-color: #f4a261; /*Laranja*/
+        }
+
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <div class="container">
+            <div class="row w-100">
+                <div class="col logo">Logo</div>
+                <div class="col menu">
+                    John doe
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="card col-md shadow-lg">Hello, world!</div>
+            <div class="card card-sec col-md col-sec shadow-lg">Hello, world!</div>
+        </div>
+        <div class="row">
+            <div class="card col-md shadow-lg">Hello, planet!</div>
+            <div class="card card-sec col-md col-sec shadow-lg">Hello, planet!</div>
+            <div class="card col-md shadow-lg">Hello, planet!</div>
+        </div>
+        <div class="row">
+            <div class="card col-md shadow-lg">Hello, earth!</div>
+            <div class="card card-sec col-md col-sec shadow-lg">Hello, earth!</div>
+            <div class="card col-md shadow-lg">Hello, earth!</div>
+            <div class="card card-sec col-md col-sec shadow-lg">Hello, earth!</div>
+        </div>
+    </div>
+</body>
+</html>
