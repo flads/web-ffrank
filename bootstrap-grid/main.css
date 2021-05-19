@@ -3,37 +3,23 @@ body {
     font-family: 'Inter', sans-serif;
 }
 
-.navbar {
-    font-size: 36px;
-    color: white;
-    height: 75px;
-    display: flex; 
-    align-items: center;  /*Aligns vertically center */
-    background-color: #f4a261; /*Laranja*/
-    margin-bottom: 50px;
-}
-
-.navbar .logo {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start; /*Aligns horizontally center */
-}
-
-.navbar .menu {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end; /*Aligns horizontally center */
-}
-
 .row > * {
     padding: 8px 8px;
 }
 
-.card {
+.main-content {
+    margin-top: 50px;
+}
+
+.sidebar {
+    padding: 16px 0 16px 30px;
+}
+
+.menu-un {
     font-size: 36px;
     color: white;
-    background-color: #e76f51; /*Vermelha*/
-    height: 250px;
+    background-color: #4C455F;
+    height: 100%;
     border-radius: 5px;
     display: flex; 
     align-items: center;  /*Aligns vertically center */
@@ -41,8 +27,17 @@ body {
     width: 100%;
 }
 
-.card-sec {
-    background-color: #f4a261; /*Laranja*/
+.day-un {
+    font-size: 36px;
+    color: white;
+    cursor: pointer;
+    background-color: #4C455F;
+    height: 100px;
+    border-radius: 5px;
+    display: flex; 
+    align-items: center;  /*Aligns vertically center */
+    justify-content: center; /*Aligns horizontally center */
+    width: 100%;
 }
 
 .fheader {
